@@ -1,5 +1,3 @@
-
-
 const NotFoundError = require('../utils/errors').NotFoundError;
 const ValidationError = require('../utils/errors').ValidationError;
 
@@ -13,7 +11,7 @@ const errorMiddleware = (err, req, res, next) => {
     }
 
     // Handle other types of errors
-    return res.status(500).json({ message: 'Internal Server Error' });
+    return res.status(500).json({ message: 'Internal Server Error has occurred during execution'});
 };
 
 module.exports = errorMiddleware;

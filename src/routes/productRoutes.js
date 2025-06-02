@@ -1,4 +1,3 @@
-
 const express = require('express');
 const router = express.Router();
 const productController = require('../controllers/productController');
@@ -19,5 +18,9 @@ router.put('/products/:id', authMiddleware, validationMiddleware, productControl
 
 // DELETE /api/products/:id - Delete a product
 router.delete('/products/:id', authMiddleware, productController.deleteProduct);
+// GET /api/products/search - Search for products
+router.get('/products/search', productController.searchProducts);
+// GET /api/products/category/:category - Get products by category
+router.get('/products/category/:category', productController.getProductsByCategory);
 
 module.exports = router;

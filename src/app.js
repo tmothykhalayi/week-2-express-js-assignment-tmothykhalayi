@@ -1,5 +1,3 @@
-
-
 const express = require('express');
 const loggerMiddleware = require('./middleware/loggerMiddleware');
 const errorMiddleware = require('./middleware/errorMiddleware');

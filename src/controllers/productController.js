@@ -43,3 +43,9 @@ exports.deleteProduct = (req, res) => {
     }
     res.status(204).send();
 };
+// Search for products
+exports.searchProducts = (req, res) => {
+    const query = req.query.q;
+    const products = Product.search(query);
+    res.json(products);
+};
