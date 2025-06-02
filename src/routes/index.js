@@ -1,4 +1,4 @@
-// filepath: week-2-express-js/src/routes/index.js
+
 const express = require('express');
 const productRoutes = require('./productRoutes');
 

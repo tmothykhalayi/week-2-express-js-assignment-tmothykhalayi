@@ -1,4 +1,4 @@
-// src/utils/helpers.js
+
 export const formatResponse = (data, message = 'Success') => {
     return {
         status: 'success',

@@ -1,4 +1,4 @@
-// src/middleware/errorMiddleware.js
+
 
 const NotFoundError = require('../utils/errors').NotFoundError;
 const ValidationError = require('../utils/errors').ValidationError;

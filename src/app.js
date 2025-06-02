@@ -1,4 +1,4 @@
-// src/app.js - Initializes the Express application, sets up middleware, and imports routes
+
 
 const express = require('express');
 const loggerMiddleware = require('./middleware/loggerMiddleware');

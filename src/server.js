@@ -1,4 +1,4 @@
-// filepath: week-2-express-js/src/server.js
+
 const app = require('./app');
 const config = require('./config');
 
